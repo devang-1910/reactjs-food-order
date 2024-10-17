@@ -16,6 +16,7 @@ const Cart = (props) => {
   };
 
   const cartItemAddHandler = (item) => {
+    //THE CHNAGE WAS ADDED 
     cartCtx.addItem({ ...item, amount: 1 });
   };
 
